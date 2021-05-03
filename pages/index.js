@@ -24,7 +24,7 @@ export default function Home() {
           dolorem nobis odit.
         </p>
         <Link href="/ninjas/">
-          <a className={styles.btn}>See Ninja Listing</a>
+          <a className={styles.btn}>See Listing</a>
         </Link>
       </div>
     </>

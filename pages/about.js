@@ -1,26 +1,23 @@
 import Head from "next/head";
+import Image from "next/image";
 
 const About = () => {
   return (
     <>
       <Head>
-        <title>LotekOne | About</title>
-        <meta name="keywords" content="about page" />
+        <title>LotekOne List | About</title>
+        <meta name="keywords" content="ninjas" />
       </Head>
       <div>
-        <div className="content">About</div>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad non amet
-          sit aspernatur itaque reprehenderit incidunt, quos repellendus, eius
-          laboriosam dignissimos a recusandae quaerat, libero animi tempore
-          saepe fugiat deserunt?
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad non amet
-          sit aspernatur itaque reprehenderit incidunt, quos repellendus, eius
-          laboriosam dignissimos a recusandae quaerat, libero animi tempore
-          saepe fugiat deserunt?
-        </p>
+        <h1>About</h1>
+        <div>
+          <Image
+            src="/lotekbanner.jpg"
+            alt="logo lotekone"
+            width={960}
+            height={580}
+          />
+        </div>
       </div>
     </>
   );
